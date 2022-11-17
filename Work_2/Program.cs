@@ -2,6 +2,8 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
+Console.Clear();
+
 int SumNaturNumbers(int numberM, int numberN)
 {
     if (numberM >= numberN) return numberM;
