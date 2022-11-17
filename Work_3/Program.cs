@@ -1,6 +1,6 @@
 ﻿// Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
-// m = 2, n = 3 -> A(m,n) = 29
-// m = 3, n = 2 -> A(m,n) = 9
+// m = 2, n = 3 -> A(m,n) = 9
+// m = 3, n = 2 -> A(m,n) = 29
 
 Console.Clear();
 
@@ -13,7 +13,7 @@ int AkkermanFunc(int m, int n)
 }
 
 Console.Write("Введите число m: ");
-int n = int.Parse(Console.ReadLine());
-Console.Write("Введите число n: ");
 int m = int.Parse(Console.ReadLine());
+Console.Write("Введите число n: ");
+int n = int.Parse(Console.ReadLine());
 Console.WriteLine(AkkermanFunc(m,n));
